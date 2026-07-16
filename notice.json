@@ -1,3 +1,23 @@
 {
-  "notices": []
+  "notices": [
+    {
+      "id": "2026-07-17-test-critical",
+      "severity": "critical",
+      "title": {"ja": "【テスト】重大なお知らせの表示テスト", "en": "[Test] Critical notice test"},
+      "body": {
+        "ja": "これは管理者お知らせ機能（【50】）の表示テストです。重大（critical）はこのように閉じるまで消えないダイアログで表示されます。「了解」を押すと既読になり、同じお知らせは再表示されません。",
+        "en": "This is a display test of the admin notice feature. Critical notices appear as a dialog that stays until dismissed."
+      },
+      "url": "https://legal.mybacktest.app/"
+    },
+    {
+      "id": "2026-07-17-test-info",
+      "severity": "info",
+      "title": {"ja": "【テスト】お知らせバナーの表示テスト", "en": "[Test] Info banner test"},
+      "body": {
+        "ja": "情報・注意レベルはこのように画面上部のバナーで表示されます。タップで全文、✕で既読になります。",
+        "en": "Info/warn notices appear as a banner at the top. Tap for details, x to dismiss."
+      }
+    }
+  ]
 }
